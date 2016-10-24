@@ -17,7 +17,10 @@
   "jest": {
     "testRegex": ".*\\.tests\\.js$",
     "scriptPreprocessor": "./node_modules/babel-jest",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testPathDirs": [
+      "src"
+    ]
   },
   "scripts": {
     "test": "jest"
